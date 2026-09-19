@@ -1,0 +1,39 @@
+{
+  "dataset": "EUROSAT",
+  "backbone": "ViT-B/32",
+  "proto": "gen",
+  "N": 27000,
+  "cal_n": 500,
+  "mode": "SINGLE",
+  "theta": 0.01,
+  "stab": "4,0.65,0.01",
+  "rel_entropy_diff_cal": 0.026562388986349106,
+  "acc_full10_fused": 0.36333333333333334,
+  "acc_single10": 0.4117037037037037,
+  "adascale_v2": {
+    "acc": 0.4117037037037037,
+    "acc_excl_cal": 0.41252830188679246,
+    "avg_scales": 1.0,
+    "exit_hist": {
+      "1": 27000
+    }
+  },
+  "fixed": {
+    "fixed-5": {
+      "acc": 0.22640740740740742,
+      "avg_scales": 5.0
+    },
+    "fixed-7": {
+      "acc": 0.2904814814814815,
+      "avg_scales": 7.0
+    },
+    "fixed-9": {
+      "acc": 0.3429259259259259,
+      "avg_scales": 9.0
+    },
+    "fixed-10": {
+      "acc": 0.36333333333333334,
+      "avg_scales": 10.0
+    }
+  }
+}

@@ -1,0 +1,19 @@
+\begin{table}[t]
+\centering
+\caption{Wall-clock inference (batch 32, RTX 4080 Super). PET: $N{=}7390$; EuroSAT: $N{=}27000$; Single mode evaluates only the largest scale.}
+\label{tab:runtime}
+\small
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{lrrrr}
+\hline
+Method & Time (s) & Ips. & Acc (\%) & Avg. scales \\
+\hline
+Full-10 (PET) & 290 & 25.4 & 82.50 & 10.00 \\
+Fixed-5 (PET) & 127 & 58.3 & 81.15 & 5.00 \\
+Fixed-7 (PET) & 189 & 39.0 & 82.75 & 7.00 \\
+AdaScale (PET) & 202 & 36.6 & 82.37 & 6.64 \\
+Full-10 (EURO; 27k) & 397 & 68.0 & 42.35 & 10.00 \\
+Single (EURO; 27k) & 45 & 595.8 & 45.34 & 1.00 \\
+\hline
+\end{tabular}
+\end{table}

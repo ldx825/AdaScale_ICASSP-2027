@@ -1,0 +1,8 @@
+{
+  "protocol": "200 random draws per setting; agreement of selector decision (theta=0.01) with full-set decision",
+  "n_100":  {"PET/text": 1.0, "PET/gen": 1.0, "EUROSAT/text": 1.0, "EUROSAT/gen": 0.88, "FLO/text": 0.96, "FLO/gen": 0.86},
+  "n_200":  {"PET/text": 1.0, "PET/gen": 1.0, "EUROSAT/text": 1.0, "EUROSAT/gen": 0.93, "FLO/text": 1.0, "FLO/gen": 0.95},
+  "n_500":  {"PET/text": 1.0, "PET/gen": 1.0, "EUROSAT/text": 1.0, "EUROSAT/gen": 0.99, "FLO/text": 1.0, "FLO/gen": 0.98},
+  "n_1000": {"PET/text": 1.0, "PET/gen": 1.0, "EUROSAT/text": 1.0, "EUROSAT/gen": 1.0, "FLO/text": 1.0, "FLO/gen": 1.0},
+  "full_rel_diff": {"PET/text": -0.0057, "PET/gen": -0.0036, "EUROSAT/text": 0.0748, "EUROSAT/gen": 0.0237, "FLO/text": -0.0001, "FLO/gen": 0.0049}
+}

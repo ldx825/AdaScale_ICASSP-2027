@@ -1,0 +1,12 @@
+{
+  "acc_fused": 0.651239467578459,
+  "acc_single": 0.6304799120771767,
+  "S1_mean_margin_diff": -0.007005504332482815,
+  "S2_frac_ms_gt_mf": 0.4895591647331787,
+  "S3_mean_logitgap_diff": -0.00043461722088977695,
+  "S4_mean_entropy_diff": -0.0005952213541604578,
+  "S5_pred_agreement": 0.8804493833190866,
+  "S6_rel_margin_diff": -0.014015844091773033,
+  "mean_margin_fused": 0.49982750415802,
+  "mean_margin_single": 0.49282199144363403
+}

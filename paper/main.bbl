@@ -1,0 +1,181 @@
+\begin{thebibliography}{10}
+
+\bibitem{radford2021clip}
+Alec Radford, Jong~Wook Kim, Chris Hallacy, Aditya Ramesh, Gabriel Goh,
+  Sandhini Agarwal, Girish Sastry, Amanda Askell, Pamela Mishkin, Jack Clark,
+  et~al.,
+\newblock ``Learning transferable visual models from natural language
+  supervision,''
+\newblock in {\em International Conference on Machine Learning (ICML)}, 2021,
+  pp. 8748--8763.
+
+\bibitem{shi2026lgclip}
+Dianxing Shi, Dingjie Fu, Yuqiao Liu, and Jun Wang,
+\newblock ``Can synthetic images serve as effective and efficient class
+  prototypes?,''
+\newblock in {\em IEEE International Conference on Acoustics, Speech and Signal
+  Processing (ICASSP)}, 2026, pp. 9467--9471.
+
+\bibitem{mocerino2021adaptta}
+Luca Mocerino, Roberto~Giorgio Rizzo, Valentino Peluso, Andrea Calimera, and
+  Enrico Macii,
+\newblock ``{AdapTTA}: Adaptive test-time augmentation for reliable embedded
+  {ConvNets},''
+\newblock in {\em IFIP/IEEE International Conference on Very Large Scale
+  Integration (VLSI-SoC)}, 2021.
+
+\bibitem{son2023selective}
+Jongwook Son and Seokho Kang,
+\newblock ``Efficient improvement of classification accuracy via selective
+  test-time augmentation,''
+\newblock {\em Information Sciences}, vol. 642, pp. 119148, 2023.
+
+\bibitem{ozturk2024intelligent}
+Efe Ozturk, Mohit Prabhushankar, and Ghassan AlRegib,
+\newblock ``Intelligent multi-view test time augmentation,''
+\newblock in {\em IEEE International Conference on Image Processing (ICIP)},
+  2024, pp. 617--623.
+
+\bibitem{shanmugam2021better}
+Divya Shanmugam, Davis Blalock, Guha Balakrishnan, and John Guttag,
+\newblock ``Better aggregation in test-time augmentation,''
+\newblock in {\em IEEE/CVF International Conference on Computer Vision (ICCV)},
+  2021, pp. 1214--1223.
+
+\bibitem{wang2021tent}
+Dequan Wang, Evan Shelhamer, Shaoteng Liu, Bruno Olshausen, and Trevor Darrell,
+\newblock ``Tent: Fully test-time adaptation by entropy minimization,''
+\newblock in {\em International Conference on Learning Representations (ICLR)},
+  2021.
+
+\bibitem{sun2020ttt}
+Yu~Sun, Xiaolong Wang, Zhuang Liu, John Miller, Alexei~A. Efros, and Moritz
+  Hardt,
+\newblock ``Test-time training with self-supervision for generalization under
+  distribution shifts,''
+\newblock in {\em International Conference on Machine Learning (ICML)}, 2020.
+
+\bibitem{guo2017calibration}
+Chuan Guo, Geoff Pleiss, Yu~Sun, and Kilian~Q. Weinberger,
+\newblock ``On calibration of modern neural networks,''
+\newblock in {\em International Conference on Machine Learning (ICML)}, 2017,
+  pp. 1321--1330.
+
+\bibitem{mittal2026adaptive}
+Tushar Mittal, Anurag Dubey, Dharmender Saini, Sarita Yadav, Achin Jain, Arvind
+  Panwar, and Hamidreza Namazi,
+\newblock ``Adaptive test-time augmentation via {KL}-regularized reinforcement
+  learning for robust visual inference,''
+\newblock {\em Scientific Reports}, 2026.
+
+\bibitem{zhou2022coop}
+Kaiyang Zhou, Jingkang Yang, Chen~Change Loy, and Ziwei Liu,
+\newblock ``Learning to prompt for vision-language models,''
+\newblock {\em International Journal of Computer Vision (IJCV)}, vol. 130, no.
+  9, pp. 2337--2348, 2022.
+
+\bibitem{zhou2022cocoop}
+Kaiyang Zhou, Jingkang Yang, Chen~Change Loy, and Ziwei Liu,
+\newblock ``Conditional prompt learning for vision-language models,''
+\newblock in {\em IEEE/CVF Conference on Computer Vision and Pattern
+  Recognition (CVPR)}, 2022.
+
+\bibitem{zhang2022tipadapter}
+Renrui Zhang, Rongyao Fang, Peng Gao, Kunchang Li, Jifeng Dai, Yu~Qiao, and
+  Hongsheng Li,
+\newblock ``Tip-adapter: Training-free adaption of {CLIP} for few-shot
+  classification,''
+\newblock in {\em European Conference on Computer Vision (ECCV)}, 2022.
+
+\bibitem{wortsman2022wiseft}
+Mitchell Wortsman, Gabriel Ilharco, Jong~Wook Kim, Mike Li, Simon Kornblith,
+  Rebecca Roelofs, Raphael Gontijo-Lopes, Hannaneh Hajishirzi, Ali Farhadi,
+  Hongseok Namkoong, and Ludwig Schmidt,
+\newblock ``Robust fine-tuning of zero-shot models,''
+\newblock in {\em IEEE/CVF Conference on Computer Vision and Pattern
+  Recognition (CVPR)}, 2022.
+
+\bibitem{shu2022tpt}
+Manli Shu, Weili Nie, De-An Huang, Zhiding Yu, Tom Goldstein, Anima Anandkumar,
+  and Chaowei Xiao,
+\newblock ``Test-time prompt tuning for zero-shot generalization in
+  vision-language models,''
+\newblock in {\em Advances in Neural Information Processing Systems (NeurIPS)},
+  2022.
+
+\bibitem{feng2023difftpt}
+Chun-Mei Feng, Kai Yu, Yong Liu, Salman Khan, and Wangmeng Zuo,
+\newblock ``Diverse data augmentation with diffusions for effective test-time
+  prompt tuning,''
+\newblock in {\em IEEE/CVF International Conference on Computer Vision (ICCV)},
+  2023, pp. 2704--2714.
+
+\bibitem{free2025}
+Divya~Jyoti Bajpai and Manjesh~Kumar Hanawal,
+\newblock ``{FREE}: Fast and robust vision language models with early exits,''
+\newblock {\em arXiv preprint arXiv:2506.06884}, 2025.
+
+\bibitem{lgems2026}
+Alberto Presta, Grzegorz Stefanski, Michal Byra, and Krzysztof Arendt,
+\newblock ``T-{GEMS}: Text-guided exit modules for decreasing {CLIP} image
+  encoder computational cost,''
+\newblock {\em arXiv preprint arXiv:2605.17499}, 2026.
+
+\bibitem{lraee2026}
+Kahyeon Nam and Hyesong Choi,
+\newblock ``The rescue effect: Spatio-semantic early exit bypasses quantization
+  collapse in {CLIP},''
+\newblock {\em arXiv preprint arXiv:2605.26415}, 2026.
+
+\bibitem{waveclip2025}
+Moshe Kimhi, Erez Koifman, Ehud Rivlin, Eli Schwartz, and Chaim Baskin,
+\newblock ``{WAVECLIP}: Wavelet tokenization for adaptive-resolution {CLIP},''
+\newblock {\em arXiv preprint arXiv:2509.21153}, 2025.
+
+\bibitem{ranet2020}
+Le~Yang, Yizeng Han, Xi~Chen, Shiji Song, Jifeng Dai, and Gao Huang,
+\newblock ``Resolution adaptive networks for efficient inference,''
+\newblock in {\em IEEE/CVF Conference on Computer Vision and Pattern
+  Recognition (CVPR)}, 2020, pp. 2369--2378.
+
+\bibitem{branchynet2016}
+Surat Teerapittayanon, Bradley McDanel, and H.~T. Kung,
+\newblock ``Branchynet: Fast inference via early exiting from deep neural
+  networks,''
+\newblock in {\em International Conference on Pattern Recognition (ICPR)},
+  2016, pp. 2464--2469.
+
+\bibitem{mobileclip2024}
+Pavan Kumar~Anasosalu Vasu, Hadi Pouransari, Fartash Faghri, Raviteja
+  Vemulapalli, and Oncel Tuzel,
+\newblock ``{MobileCLIP}: Fast image-text models through multi-modal reinforced
+  training,''
+\newblock in {\em IEEE/CVF Conference on Computer Vision and Pattern
+  Recognition (CVPR)}, 2024, pp. 15963--15974.
+
+\bibitem{pets2012}
+Omkar~M Parkhi, Andrea Vedaldi, Andrew Zisserman, and C~V Jawahar,
+\newblock ``Cats and dogs,''
+\newblock in {\em IEEE Conference on Computer Vision and Pattern Recognition
+  (CVPR)}, 2012.
+
+\bibitem{eurosat2019}
+Patrick Helber, Benjamin Bischke, Andreas Dengel, and Damian Borth,
+\newblock ``Eurosat: A novel dataset and deep learning benchmark for land use
+  and land cover classification,''
+\newblock {\em IEEE Journal of Selected Topics in Applied Earth Observations
+  and Remote Sensing}, vol. 12, no. 7, pp. 2217--2226, 2019.
+
+\bibitem{flowers2008}
+Maria-Elena Nilsback and Andrew Zisserman,
+\newblock ``Automated flower classification over a large number of classes,''
+\newblock in {\em Indian Conference on Computer Vision, Graphics and Image
+  Processing (ICVGIP)}, 2008.
+
+\bibitem{cub2011}
+Catherine Wah, Steve Branson, Peter Welinder, Pietro Perona, and Serge
+  Belongie,
+\newblock ``The caltech-ucsd birds-200-2011 dataset,''
+\newblock Tech. {R}ep., California Institute of Technology, 2011.
+
+\end{thebibliography}

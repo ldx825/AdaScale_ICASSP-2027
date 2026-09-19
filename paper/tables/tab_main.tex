@@ -1,0 +1,20 @@
+\begin{table}[t]
+\centering
+\caption{Zero-shot results (CLIP ViT-B/32; Pets = Oxford-Pets, Flowers = Flowers-102). Full-10: baseline feature fusion. AdaScale auto-selects FUSED (early exit + soft fusion) or SINGLE (largest scale). $\Delta$: paired-bootstrap vs.\ Full-10.}
+\label{tab:main}
+\small
+\setlength{\tabcolsep}{2pt}
+\begin{tabular}{llrrcrrr}
+\hline
+Dataset & Proto & $C$ & Full-10 & Single-10 & AdaScale & $\Delta$ & \#S \\
+\hline
+Pets & text & 37 & 82.45 & 80.09 & \textbf{82.63} & $+0.18$ & 6.63 \\
+Pets & gen & 37 & 60.92 & 57.01 & \textbf{61.15} & $+0.23$ & 8.63 \\
+EuroSAT & text & 10 & 42.38 & 45.34 & \textbf{45.34} & $+2.97^{*}$ & 1.00 \\
+EuroSAT & gen & 10 & 36.33 & 41.17 & \textbf{41.17} & $+4.84^{*}$ & 1.00 \\
+Flowers & text & 102 & 65.12 & 63.05 & \textbf{65.17} & $+0.05$ & 7.91 \\
+Flowers & gen & 102 & 42.95 & 41.30 & \textbf{43.30} & $+0.35^{*}$ & 8.92 \\
+CUB & text & 200 & 53.90 & 50.22 & \textbf{54.02} & $+0.12$ & 9.01 \\
+\hline
+\end{tabular}
+\end{table}

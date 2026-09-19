@@ -1,0 +1,20 @@
+\begin{table}[t]
+\centering
+\caption{Comparison with prior-inspired adaptive baselines (accuracy\,\%; subscript: average scale evaluations). B1: margin stopping (AdapTTA-style). B2: uncertainty gating (Selective-TTA-style). B3: keep 5 lowest-entropy views (needs all 10 views). AdaScale: our hierarchical controller.}
+\label{tab:baselines}
+\scriptsize
+\setlength{\tabcolsep}{2.5pt}
+\begin{tabular}{llrrrrrr}
+\hline
+Dataset & Proto & Full-10 & Single-10 & B1 & B2 & B3 & AdaScale \\
+\hline
+Pets & text & 82.45\,{\tiny 10.0} & 80.09\,{\tiny 1.0} & 82.31\,{\tiny 6.2} & 82.45\,{\tiny 9.1} & 82.75\,{\tiny 10.0} & \textbf{82.63\,{\tiny 6.6}} \\
+Pets & gen & 60.92\,{\tiny 10.0} & 57.01\,{\tiny 1.0} & 61.03\,{\tiny 8.9} & 60.92\,{\tiny 9.1} & 61.14\,{\tiny 10.0} & \textbf{61.15\,{\tiny 8.6}} \\
+Flowers & text & 65.12\,{\tiny 10.0} & 63.05\,{\tiny 1.0} & 65.08\,{\tiny 8.0} & 65.12\,{\tiny 9.1} & 64.77\,{\tiny 10.0} & \textbf{65.17\,{\tiny 7.9}} \\
+Flowers & gen & 42.95\,{\tiny 10.0} & 41.30\,{\tiny 1.0} & 42.94\,{\tiny 9.0} & 42.94\,{\tiny 9.1} & 43.28\,{\tiny 10.0} & \textbf{43.30\,{\tiny 8.9}} \\
+EuroSAT & text & 42.38\,{\tiny 10.0} & 45.34\,{\tiny 1.0} & 42.39\,{\tiny 9.8} & 44.93\,{\tiny 1.9} & 43.42\,{\tiny 10.0} & \textbf{45.34\,{\tiny 1.0}} \\
+EuroSAT & gen & 36.33\,{\tiny 10.0} & 41.17\,{\tiny 1.0} & 27.69\,{\tiny 5.9} & 39.46\,{\tiny 1.9} & 36.00\,{\tiny 10.0} & \textbf{41.17\,{\tiny 1.0}} \\
+CUB & text & 53.90\,{\tiny 10.0} & 50.22\,{\tiny 1.0} & 53.88\,{\tiny 9.1} & 53.90\,{\tiny 9.1} & 54.25\,{\tiny 10.0} & \textbf{54.02\,{\tiny 9.0}} \\
+\hline
+\end{tabular}
+\end{table}

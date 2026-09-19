@@ -1,0 +1,19 @@
+{
+ "dataset": "EUROSAT",
+ "backbone": "ViT-B/32",
+ "mode": "single",
+ "policy": {
+  "k": 10
+ },
+ "N": 27000,
+ "batch": 32,
+ "time_mean": 45.31927680969238,
+ "time_std": 1.0409553050994873,
+ "throughput_ips": 595.7729668410229,
+ "acc_mean": 0.45344444444444443,
+ "acc_std": 0.0,
+ "avg_scales": 1.0,
+ "per_scale_counts": {
+  "10": 27000
+ }
+}
