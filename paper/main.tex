@@ -390,12 +390,15 @@ in the supplement.
 
 \enlargethispage{3.5\baselineskip}
 \section{Conclusion}
-We identified a target-domain fusion failure in synthetic-prototype
-multi-scale recognition---fusion can be systematically inferior to
-the largest scale, undiagnosable by the per-sample gates we tested---and proposed
-AdaScale, which decides whether to fuse and how many scales suffice per
-sample, matching or exceeding the 10-scale baseline with up to 90\% fewer
-evaluations.
+Fixed multi-scale fusion assumes fusion helps every domain---but on
+EuroSAT, fusing all scales is systematically worse than the largest
+single scale (42.4\% vs.\ 45.3\%), a target-domain failure that
+per-sample gates cannot diagnose. We address it with AdaScale: a
+training-free controller that first decides whether a domain should
+fuse at all, then stops each sample once its fused prediction
+stabilizes. Across four datasets with text and synthetic prototypes,
+it matches or exceeds the 10-scale baseline---by up to 4.8
+points---while evaluating up to 90\% fewer scales.
 
 \clearpage
 \ninept
