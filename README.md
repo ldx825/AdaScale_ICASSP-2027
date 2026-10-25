@@ -38,12 +38,12 @@ Everything is training-free: no parameter is fitted, no label is used, and no pe
 | Paper | Code |
 |---|---|
 | Sec. 3.1, Eq. (1) — multi-scale fusion with triangular weights `w_s = s/Σt`, `τ⁻¹ = 100` | `src/utils/load_features.py` (`SCALE_WEIGHTS`, `prefix_aggregate`, `full_scale_aggregate`); `LOGIT_TAU` in `src/adascale/*.py` |
-| Sec. 3.2 / Table 2 — per-scale utility audit (prefix accuracy, harmed fraction, `t_eq`, margin AUC) | `scripts/audit/run_scale_audit.py` → `src/analysis/prefix_analysis.py` → `src/analysis/plot_audit.py` |
+| Sec. 3.2 / Table 1 — per-scale utility audit (prefix accuracy, harmed fraction, `t_eq`, margin AUC) | `scripts/audit/run_scale_audit.py` → `src/analysis/prefix_analysis.py` → `src/analysis/plot_audit.py` |
 | Sec. 3.3, Eq. (2) — unlabeled fusion-utility diagnosis (`ΔH` vs `θ`) | `scripts/final/evaluate_adascale_final.py` (calibration + mode decision); probes and sensitivity: `scripts/final/mode_selector_probe.py`, `mode_calibration_sim.py`, `arbitration_probe.py` |
 | Sec. 3.4 — scale-wise reliability stopping (agreement / margin / drift) | `src/adascale/simulate.py::StabilityPolicy`, `src/adascale/adascale.py::AdaScalePolicy` |
 | Sec. 3.5, Eq. (3) — probability-level soft fusion (`w_s = s`, `τ_s = 0.02`) | `scripts/final/adascale_v3_sim.py` (candidate `F7`: per-view `softmax(·/0.02)`, triangular weights, applied on the frozen exit trajectory) |
 | Sec. 4.2 — scale utility results, harmful late scales, EuroSAT fusion-is-worse regime | `scripts/audit/run_scale_audit.py`, `scripts/final/fusion_vs_single.py`, `scripts/final/single_scale_baselines.py` |
-| Sec. 4.3 / Table 1 — main results (4 datasets × 2 prototype types) | `scripts/final/evaluate_adascale_final.py` + `adascale_v3_sim.py`, aggregated by `scripts/final/collect_results.py` |
+| Sec. 4.3 / Table 2 — main results (4 datasets × 2 prototype types) | `scripts/final/evaluate_adascale_final.py` + `adascale_v3_sim.py`, aggregated by `scripts/final/collect_results.py` |
 | Sec. 4.4 — comparison with prior-inspired adaptive baselines | `scripts/final/prior_baselines.py` |
 | Sec. 4.5 — ablations (Fixed-K vs AdaScale, `r/δ/ε` sensitivity) | `scripts/experiments/exp_simulation.py`, `fine_grid.py`, `plot_sensitivity.py`, `plot_pareto.py` |
 | Sec. 4.6 — runtime / scale-evaluation savings | `src/adascale/runtime_bench.py` |
