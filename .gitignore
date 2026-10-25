@@ -16,3 +16,27 @@ __pycache__/
 # OS
 .DS_Store
 Thumbs.db
+
+# ---------------------------------------------------------------------------
+# Not part of the public code release (kept locally, never committed).
+# Only the compiled paper PDFs are tracked under paper/.
+# ---------------------------------------------------------------------------
+/paper/*
+!/paper/main.pdf
+!/paper/supplement.pdf
+
+# Research notes, experiment artefacts and paper-asset builders
+/notes/
+/outputs/
+/scripts/paper/
+/environment/lgclip_commit.txt
+/environment/reproducibility.md
+/environment/system_info.txt
+
+# Data and third-party checkouts (downloaded / cloned, not distributed)
+/data/
+/third_party/
+/.venv/
+/.home/
+/.cache/
+/.tmp/
