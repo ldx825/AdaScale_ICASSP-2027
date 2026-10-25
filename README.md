@@ -5,7 +5,7 @@ Code release for the paper **"AdaScale: Diagnosing and Adapting Multi-Scale Fusi
 - Paper PDF: [`paper/main.pdf`](paper/main.pdf) · Supplementary: [`paper/supplement.pdf`](paper/supplement.pdf)
 - Authors: Dongxu Liu, Keming Fan, Xiang Luo, Chenrui Zhu, Dongyang Liu
 
-This repository contains the code that implements the method and produces every number, table and figure in the paper. It is a research release: datasets, the LG-CLIP baseline checkout and the SD-generated prototype images are **not** distributed — see [Data preparation](#data-preparation).
+This repository contains the code that implements the method and produces every number, table and figure in the paper. It is a research release: datasets, the LG-CLIP baseline checkout and the SD-generated prototype images are **not** distributed — see [Data preparation](#3-data-preparation).
 
 ---
 
